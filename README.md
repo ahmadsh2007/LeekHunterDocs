@@ -7,7 +7,7 @@ This repo contains all key documentation related to the design, progress, prompt
 ---
 
 ## 📂 Repository Structure
-
+```text
 ├── README.md <-- Overview of the documentation repo
 ├── architecture/
 │ └── Design_Overview-4AlphaV.md <-- Architecture, system components, data flow
