@@ -8,20 +8,27 @@ This repo contains all key documentation related to the design, progress, prompt
 
 ## 📂 Repository Structure
 ```text
-├── README.md <-- Overview of the documentation repo
-├── architecture/
-│ └── Design_Overview-4AlphaV.md <-- Architecture, system components, data flow
-├── progress/
-│ ├── 2024-05-29_to_2024-06-22.md <-- Project progress log for initial testing phase
-│ └── log-template.md <-- Blank template for future progress logs
-├── prompts/
-│ ├── prompt 1.md <-- How prompts are constructed (inputs, outputs)
-│ ├── prompt 2.md
-│ ├── prompt 3.md
-├── specs/
-│ ├── response-schema-4AlphaV.md <-- JSON format specification for Gemini API outputs
-│ └── bug-types.md <-- List of known bug types and explanations
-├── reports/
-├── media/
-│ └── screenshots/, diagrams/, etc.
-└── LICENSE
+|   LICENSE
+|   README.md
+|   
++---architecture
+|       Design_Overview-4AlphaV.md
+|       
++---media
+|       VSCe Editor Info.mp4
+|       VSCe First Test.mp4
+|       
++---progress
+|       2025-05-29_to_2025-06-22.md
+|       2025-06-22_to_2025-07-23.md
+|       2025-07-24_to_2025-07-31.md
+|       log_template.md
+|       
++---prompts
+|       Prompt 1.md
+|       Prompt 2.md
+|       Prompt 3.md
+|       
++---reports
+\---specs
+        response-schema-4AlphaV.md
